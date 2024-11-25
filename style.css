@@ -1,0 +1,55 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    font-family: "Sora", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 1rem;
+}
+
+.blog-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FAFAF9;
+    width: 21rem;
+    height: 25rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+
+.card-tag {
+    font-size: 0.625rem;
+    font-weight: bold;
+    background-color: #F2EAFD;
+    color: #7C19EE;
+    width: fit-content;
+    padding: 0.1rem 0.5rem;
+    border-radius: 1rem;
+}
+
+.card-title {
+    color: #20293A;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.card-body {
+    color: #394150;
+    font-size: 0.875rem;
+    border-bottom: 1px #E5EAF0 solid;
+    padding: 0.4rem 0;
+}
+
+.card-author {
+    font-size: 0.75rem;
+}
